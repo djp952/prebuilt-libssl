@@ -36,7 +36,7 @@ export CC=gcc-4.9
 export AR=gcc-ar-4.9
 export RANLIB=gcc-ranlib-4.9
 cd openssl
-./Configure no-shared linux-generic32 -m32
+./Configure no-shared linux-generic32 -m32 -fPIC
 make
 ```
    
@@ -51,7 +51,7 @@ export CC=gcc-4.9
 export AR=gcc-ar-4.9
 export RANLIB=gcc-ranlib-4.9
 cd openssl
-./Configure no-shared linux-x86_64
+./Configure no-shared linux-x86_64 -fPIC
 make
 ```
    
