@@ -83,7 +83,7 @@ export ANDROID_NDK_ROOT=$(pwd)/android-ndk-r12b
 export PATH=$(pwd)/aarch64-linux-android/bin:$PATH
 export CROSS_COMPILE=aarch64-linux-android-
 cd openssl
-./Configure no-shared no-asm no-zlib no-ssl2 no-ssl3 no-comp no-hw no-engine linux-generic64 -DB_ENDIAN -fPIC -DOPENSSL_PIC -DDSO_DLFCN -DHAVE_DLFCN_H -mandroid -I$ANDROID_NDK_ROOT/platforms/android-21/arch-arm64/usr/include -B$ANDROID_NDK_ROOT/platforms/android-21/arch-arm64/usr/lib -O3 -fomit-frame-pointer -Wall
+./Configure no-shared no-asm no-zlib no-ssl2 no-ssl3 no-comp no-hw no-engine linux-generic64 -fPIC -DOPENSSL_PIC -DDSO_DLFCN -DHAVE_DLFCN_H -mandroid -I$ANDROID_NDK_ROOT/platforms/android-21/arch-arm64/usr/include -B$ANDROID_NDK_ROOT/platforms/android-21/arch-arm64/usr/lib -O3 -fomit-frame-pointer -Wall
 make depend
 make
 ```
