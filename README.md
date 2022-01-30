@@ -77,7 +77,7 @@ nmake
 ```
    
 Get header files from openssl\\include   
-Get libssl_static.lib and libcrypto_static.lib from openssl  
+Get libssl_static.lib, libcrypto_static.lib, and ossl_static.pdb from openssl  
       
 **BUILD LIBSSL (windows-x64-v141)**   
 Open "Command Prompt"   
@@ -90,7 +90,7 @@ nmake
 ```
    
 Get header files from openssl\\include   
-Get libssl_static.lib and libcrypto_static.lib from openssl  
+Get libssl_static.lib, libcrypto_static.lib, and ossl_static.pdb from openssl  
       
 **BUILD LIBSSL (uwp-win32-v141)**   
 Open "Command Prompt"   
@@ -103,7 +103,7 @@ nmake
 ```
    
 Get header files from openssl\\include   
-Get libssl_static.lib and libcrypto_static.lib from openssl  
+Get libssl_static.lib, libcrypto_static.lib, and ossl_static.pdb from openssl  
       
 **BUILD LIBSSL (uwp-x64-v141)**   
 Open "Command Prompt"   
@@ -116,7 +116,7 @@ nmake
 ```
    
 Get header files from openssl\\include   
-Get libssl_static.lib and libcrypto_static.lib from openssl  
+Get libssl_static.lib, libcrypto_static.lib, and ossl_static.pdb from openssl  
       
 **BUILD LIBSSL (uwp-arm-v141)**   
 Open "Command Prompt"   
@@ -129,7 +129,7 @@ nmake
 ```
    
 Get header files from openssl\\include   
-Get libssl_static.lib and libcrypto_static.lib from openssl  
+Get libssl_static.lib, libcrypto_static.lib, and ossl_static.pdb from openssl  
       
 **BUILD LIBSSL (linux-i686)**   
 Open "Ubuntu 18.04 LTS"   
