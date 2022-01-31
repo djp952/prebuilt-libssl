@@ -111,7 +111,7 @@ Open "Command Prompt"
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat" x64 uwp -vcvars_ver=14.1
 git clone https://github.com/openssl/openssl.git -b openssl-3.0.1 --depth=1
 cd openssl
-perl Configure VC-WIN64A-UWP no-zlib no-tests
+perl Configure VC-WIN64A-UWP no-zlib no-tests no-secure-memory
 nmake
 ```
    
@@ -124,7 +124,7 @@ Open "Command Prompt"
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat" x86_arm uwp -vcvars_ver=14.1
 git clone https://github.com/openssl/openssl.git -b openssl-3.0.1 --depth=1
 cd openssl
-perl Configure VC-WIN32-ARM-UWP no-zlib no-tests
+perl Configure VC-WIN32-ARM-UWP no-zlib no-tests no-secure-memory
 nmake
 ```
    
